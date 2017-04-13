@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">Pinochle Score Pad</string>
+
+
+    /*Menu Screen strings*/
+
+    <string name="menuTitle">Pinochle Score Pad</string>
+    <string name="newGame">New Game</string>
+    <string name="resume">Resume Game</string>
+    <string name="Rules">Rules</string>
+
+    /*Game strings*/
+
+    <string name="setupTitle">Make Your Teams!</string>
+    <string name="team1">Team 1</string>
+    <string name="team2">Team 2</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="beginButton">Begin</string>
+
+    /*Bidding strings*/
+
+    <string name="whoWonBid">Who won the bid?</string>
+    <string name="howMuch">Winning bid</string>
+    <string name="meld">Meld</string>
+    <string name="trump">Trump</string>
+    <string name="meldEx">e.g. 150</string>
+    <string name="bidEx">e.g. 250</string>
+    <string name="spades">Spades</string>
+    <string name="hearts">Hearts</string>
+    <string name="clubs">Clubs</string>
+    <string name="diamonds">Diamonds</string>
+    <string name="oppMeld">Opponent\'s Meld</string>
+    <string name="play">Play</string>
+    <string name="shootMoon">Shoot Moon</string>
+    <string name="home">Home</string>
+    <string name="goSet">Go Set</string>
+
+    /*Score Pad strings*/
+
+    <string name="scorePad">Score Pad</string>
+    <string name="enterScore">Point Cards Won</string>
+    <string name="pointsHint">e.g. 12</string>
+    <string name="lastTrick">Last Trick</string>
+    <string name="finish">Add Scores</string>
+
+    /*Shoot Moon strings*/
+
+    <string name="shootMoonTitle">Shoot the Moon</string>
+    <string name="moonQuestion">Did you shoot the moon?</string>
+    <string name="yesButton">Yes</string>
+    <string name="noButton">No</string>
+
+    /*Rules strings and paragraphs*/
+
+    <string name="rulesTitle">Rules</string>
+    <string name="rulesIntro1">\nPinochle (pronounced "peenuckle") is a team card game that uses a 48 card deck (two of each card from 9 to ace). In order to win you must score points using card combinations as well as winning tricks. There are many variations of Pinochle but this app was designed to keep score for four-handed Pinochle which means there will be two teams of two.</string>
+    <string name="rulesIntro2">\nIn Pinochle there are three stages to every round. They are, in order, bidding, melding, and game play. In the following paragraphs each of these will be explained briefly.</string>
+    <string name="rulesIntro3">\nBefore doing that it is important that you know what meld points are. These are explained on the next page. Notice that the order of the cards from highest value to lowest is Ace, Ten, King, Queen, Jack, Nine.</string>
+    <string name="nextPage">Next Page</string>
+
+    /*Meld Points strings*/
+
+    <string name="heading1">\nMeld Combinations</string>
+    <string name="meldParagraph">\nCertain card combinations in pinochle are worth points. These will be important when bidding (see next section). Here are the various combinations and their point values:\n</string>
+    <string name="asterisk">\n*Plus 10 for extra King or Queen</string>
+
+    /*Bidding Rules strings*/
+
+    <string name="biddingHeading">Bidding</string>
+    <string name="biddingParagraph">\nAfter passing out all of the cards the person to the left of the dealer starts the bidding. However, that person can only start the bidding if they have some meld points in their hand. Otherwise they must pass and are not allowed to bid that round. The same goes for the other three players.</string>
+    <string name="biddingParagraph2">\nThe bid starts at 250 and goes up by increments of 10. For example, if someone starts the bid then the next person can bid 260. They may also go higher if they wish. People generally win the bid for somewhere between 340\u2014380.</string>
+    <string name="biddingParagraph3">\nRemember that whatever amount you bid you have to match. This means that the meld points from you and your partner and the points you win during game play must add up to your bid. If not then your team score goes down the same amount as your bid.</string>
+
+    /*Melding Rules strings*/
+
+    <string name="meldingHeading">Melding</string>
+    <string name="meldingParagraph">\nOnce the bid has been won then the winner chooses what suit trump will be. Their teammate will then pass 4 cards to them and the winner will in turn pass 4 cards back.</string>
+    <string name="meldingParagraph2">\nAt this point all players lay down their meld combinations. The team that won the bid needs a large amount of meld points for it to be possible for them to make their bid. For example, if they won the bid for 360 and have 200 meld points then they are in good shape. To make up the rest of the points they will need to take 16 point cards (Ace, Ten or King) in order to make their bid.</string>
+    <string name="meldingParagraph3">\nSince there are only 250 possible points for each round (24 point cards plus 10 points for taking the last trick) the winning team needs to determine if they can make their bid. If not then they go set, which means their score goes down by their bid. The other team would automatically get their meld points.</string>
+
+    /*Game Play strings*/
+
+    <string name="gamePlayHeading">Game Play</string>
+    <string name="gamePlayParagraph">\nThe player who won the bid begins game play by laying down a card. Each player in turn will then lay down a card. The two main rules you must follow are these: You have to play a card in the same suit as the first card played and you must beat it if you can. If you can\'t do either of those then you are free to play whatever you want. Ties go to the player who played the high card first. The winner of each trick takes the 4 cards and places them in a pile next to them.</string>
+    <string name="gamePlayParagraph2">\nOnce all cards have been played then each team counts the amount of point cards (Ace, 10 or King) they took. The team who won the bid must match their bid or they go down by the bid amount. The other team must take at least 1 trick in order to save their meld. The first team to reach the score of 1500 wins. A team may also win if there is a 1500 point spread.</string>
+
+    /*Shoot Moon rules strings*/
+
+    <string name="shootMoonParagraph">\nWhen a player wins the bid they may decide that they want to shoot the moon. This means that they alone must win every trick in the round. If they do then their team wins. If not then they automatically lose.</string>
+    <string name="shootMoonParagraph2">\nA player will decide to shoot the moon after trading cards with their partner but before anyone lays down meld. When shooting the moon, meld points are not considered. If a team\'s score is negative then shooting the moon only gets their score back to zero instead of giving them the victory.</string>
+
+    /*Meld point table strings*/
+    <string name="nineTrump">Nine in Trump</string>
+    <string name="nineTrumpPts">10</string>
+    <string name="nonTrumpMarriage">Marriage in Non-Trump (K Q)</string>
+    <string name="nonTrumpMarriagePts">20</string>
+    <string name="trumpMarriage">Marriage in Trump (K Q)</string>
+    <string name="trumpMarriagePts">40</string>
+    <string name="fortyJacks">Forty Jacks (Jack of every suit)</string>
+    <string name="fortyJacksPts">40</string>
+    <string name="pinochle">Pinochle (Queen of spades, Jack of diamond)</string>
+    <string name="pinochlePoints">40</string>
+    <string name="sixtyQueens">Sixty Queens (Queen of every suit)</string>
+    <string name="sixtyQueensPts">60</string>
+    <string name="eightyKings">Eighty Kings (King of every suit)</string>
+    <string name="eightyKingsPts">80</string>
+    <string name="hundredAces">Hundred Aces (Ace of every suit)</string>
+    <string name="hundredAcesPts">100</string>
+    <string name="family">Family (A 10 K Q J in trump)*</string>
+    <string name="familyPts">150</string>
+    <string name="doublePinochle">Double Pinochle (Two Pinochles)</string>
+    <string name="doublePinochlePts">300</string>
+    <string name="thousandAces">Thousand Aces (Every Ace)</string>
+    <string name="thousandAcesPts">1000</string>
+    <string name="doubleFamily">Double Family (A A 10 10 K K Q Q J J)</string>
+    <string name="doubleFamilyPts">1500</string>
+    <string name="title_activity_rules2">Rules2</string>
+    <string name="title_activity_rules3">Rules3</string>
+    <string name="title_activity_rules5">Rules5</string>
+    <string name="title_activity_rules6">Rules6</string>
+</resources>

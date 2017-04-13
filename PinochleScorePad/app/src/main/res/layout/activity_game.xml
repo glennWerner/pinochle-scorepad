@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.glenn.pinochlescorepad.Game"
+    android:background="@drawable/greenfelt">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text0"
+        android:text="@string/setupTitle"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/team1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/textView2"
+        android:layout_below="@id/text0"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/player1"
+        android:ems="10"
+        android:textColor="@color/colorText"
+        android:id="@+id/editText"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/player2"
+        android:ems="10"
+        android:textColor="@color/colorText"
+        android:id="@+id/editText2"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/team2"
+        android:id="@+id/textView3"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/player1"
+        android:ems="10"
+        android:textColor="@color/colorText"
+        android:id="@+id/editText3"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/player2"
+        android:ems="10"
+        android:textColor="@color/colorText"
+        android:id="@+id/editText4"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/beginButton"
+        android:textStyle="bold"
+        android:id="@+id/button4"
+        android:background="@drawable/button"
+        android:elevation="2dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:stateListAnimator="@anim/button_elevation"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:onClick="go_to_bid"/>
+</RelativeLayout>

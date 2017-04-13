@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.glenn.pinochlescorepad.Game"/>
+      <point      
+        x = "2364"      
+        y = "248"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.glenn.pinochlescorepad.Bidding"/>
+      <point      
+        x = "3472"      
+        y = "96"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.glenn.pinochlescorepad.MenuScreen"/>
+      <point      
+        x = "-260"      
+        y = "440"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.glenn.pinochlescorepad.Rules"/>
+      <point      
+        x = "2076"      
+        y = "420"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.glenn.pinochlescorepad.ScorePad"/>
+      <point      
+        x = "1084"      
+        y = "212"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
